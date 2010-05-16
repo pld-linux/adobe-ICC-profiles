@@ -14,6 +14,7 @@ Group:		Applications/Graphics
 Source0:	http://download.adobe.com/pub/adobe/iccprofiles/win/AdobeICCProfilesWin_bundler.zip
 # NoSource0-md5:	296d093d5171a8cc333ff7a360441fed
 URL:		http://www.adobe.com/support/downloads/product.jsp?product=62&platform=Windows
+BuildRequires:	unzip
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
