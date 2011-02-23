@@ -73,7 +73,7 @@ przez profesjonalnych grafików do używania w ciągu całej pracy.
 - Japan Color 2002 Newspaper 
 
 %prep
-%setup -q -n 'Adobe\ ICC\ Profiles\ \(bundler\)'
+%setup -q -n Adobe\ ICC\ Profiles\ \(bundler\)
 
 %install
 rm -rf $RPM_BUILD_ROOT
